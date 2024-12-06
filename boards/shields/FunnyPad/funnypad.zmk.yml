@@ -1,0 +1,8 @@
+file_format: "1"
+id: funnypad
+name: FunnyPad Numpad
+type: shield
+url: https://github.com/rnadomdude/FunnyPad
+requires: [pro_micro]
+features:
+  - keys
