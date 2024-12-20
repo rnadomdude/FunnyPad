@@ -9,7 +9,7 @@ My first PCB, please leave feedback.
 - Kailh hotswap sockets!!!
 - I spent my free time on this
 - Screw on stabilizers
-- 
+- ZMK compatibility
 
 
 
@@ -18,5 +18,6 @@ My first PCB, please leave feedback.
 
 ## References
 - Made in KiCad8.
+- Software done with https://zmk.dev/
 - Schematic and PCB partly generated from https://kb.xyz.is/
 - Nice!nano footprint from https://github.com/ebastler/marbastlib
