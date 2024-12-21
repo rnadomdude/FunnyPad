@@ -19,5 +19,5 @@ My first PCB, please leave feedback.
 ## References
 - Made in KiCad8.
 - Software done with https://zmk.dev/
-- Schematic and PCB partly generated from https://kb.xyz.is/
+- Schematic and PCB partly generated from https://kb.xyz.is/ used in conjunction with https://www.keyboard-layout-editor.com/#/
 - Nice!nano footprint from https://github.com/ebastler/marbastlib
