@@ -1,10 +1,14 @@
 # FunnyPad
-Yet another basic 17 key keypad with kailh hotswap sockets designed for fun.  
+Yet another basic 17 key numpad with kailh hotswap sockets designed for fun.  
 Made with the [nice!nano v2](https://nicekeyboards.com/docs/nice-nano/), but compatible with any Pro Micro boards.  
 My first PCB, please leave feedback. 
 
 CAD model  
 ![FunnyPadCad](images/FunnyPadCad.jpg)  
+Exploded  
+![FunnyPadExploded](images/FunnyPadExplode.jpg)  
+Wireframe  
+![FunnyPadWireframe](images/FunnyPadWire.jpg)  
 PCB in kicad (2 layers)  
 ![FunnyPadPCB](images/FunnyPadPCB.jpg)  
 Schematic  
