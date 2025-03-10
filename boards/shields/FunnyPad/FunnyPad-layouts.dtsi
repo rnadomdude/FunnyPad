@@ -1,0 +1,45 @@
+#include <layouts/common/numpad/position_map.dtsi>
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout0: physical_layout0 {
+        compatible = "zmk,physical-layout";
+        display-name = "FunnyPad";
+        kscan = <&kscan0>;
+        transform = <&default_transform>;
+
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0     0     0>
+            , <&key_physical_attrs 100 100  200    0       0     0     0>
+            , <&key_physical_attrs 100 100  300    0       0     0     0>
+            , <&key_physical_attrs 100 100    0  100       0     0     0>
+            , <&key_physical_attrs 100 100  100  100       0     0     0>
+            , <&key_physical_attrs 100 100  200  100       0     0     0>
+            , <&key_physical_attrs 100 200  300  100       0     0     0>
+            , <&key_physical_attrs 100 100    0  200       0     0     0>
+            , <&key_physical_attrs 100 100  100  200       0     0     0>
+            , <&key_physical_attrs 100 100  200  200       0     0     0>
+            , <&key_physical_attrs 100 100    0  300       0     0     0>
+            , <&key_physical_attrs 100 100  100  300       0     0     0>
+            , <&key_physical_attrs 100 100  200  300       0     0     0>
+            , <&key_physical_attrs 100 200  300  300       0     0     0>
+            , <&key_physical_attrs 200 100    0  400       0     0     0>
+            , <&key_physical_attrs 100 100  200  400       0     0     0>
+            ;
+    };
+
+    position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        physical_layout0 {
+            physical-layout = <&physical_layout0>;
+            positions
+                = < 0  1  2  3>
+                , < 4  5  6   >
+                , < 7  8  9 10>
+                , <11 12 13   >
+                , <   14 15 16>;
+        };
+    };
+};

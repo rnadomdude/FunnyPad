@@ -5,6 +5,7 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "FunnyPad-layouts.dtsi"
 
 / {
     kscan0: kscan {
@@ -46,5 +47,6 @@ RC(3,0) RC(3,1) RC(3,2)
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
+        zmk,physical-layout = &physical_layout0;
     };
 };
